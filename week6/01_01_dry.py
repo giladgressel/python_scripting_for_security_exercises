@@ -1,4 +1,6 @@
 # convert the following code into a function
+# your function should take a single list as input
+# it should return a list with only the even numbers from the input list
 
 numbers = [2, 1, 3, 5, 1, 2, 3, 12, 3, 45, 1, 2, 3]
 
