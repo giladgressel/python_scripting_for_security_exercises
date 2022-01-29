@@ -3,3 +3,6 @@
 
 # I should be able to return the list of numbers which is divisible by "n", where
 # 'n' can be any number.
+
+## Input: a list of integers, a number 'n'
+## output: a new list that only has retains numbers which are divisible by n
