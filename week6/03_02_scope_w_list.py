@@ -1,19 +1,34 @@
 # run the function below
 
-my_list = [1, 2, 3]
+list_of_vowels = ["a", "e", "i", "o", "u"]
 
 
-def times_nums():
-    for i in range(3):
-        my_list.append(i * my_list[i])
-    final_list = my_list
-    return final_list
+def check_for_vowels(string_to_count):
+    """
+    Function will count if all vowels occur within the string
+    """
+    for char in string_to_count:
+        if char.lower() in list_of_vowels:
+            list_of_vowels.remove(char)
+
+    if len(list_of_vowels) == 0:  # all vowels were found, so all vowels removed
+        return True
+    else:
+        return False  # not all vowels found something is still in the list
 
 
 # run the above function.
-f = remove_ints()
-print(f)  # what prints out?
 
-print(f"my list is:\n{my_list}")  # is this what you expected? What is happening?
+print(check_for_vowels("sequoia"))  # should be true
 
-### fix the above function so that it does not modify my_list!
+## can you re-use the function?
+
+print(check_for_vowels("The"))  # this should be False!
+
+# what is wrong?
+
+## try printing list_of_vowels
+# print(list_of_vowels)
+# why is it empty?
+
+## Fix the function so this does not happen!
