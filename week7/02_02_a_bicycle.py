@@ -1,5 +1,5 @@
 """
-create a simple bicylce class
+create a simple bicycle class
 
 # Attributes
 number of tires
