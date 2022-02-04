@@ -11,8 +11,8 @@ subclass - Boot- attributes:
 brand, size, material, instock
 
 method in subclass:
-display shoe info
+display shoe info 
 
-when user inputs a shoe type ballet or boot, output should display shoe info like brand, size, material, instock(True/False)
+when user inputs a shoe type ballet or boot, output should print shoe info like brand, size, material, instock(True/False) using the method in subclass.
 
 """
