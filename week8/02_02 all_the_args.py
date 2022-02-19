@@ -11,7 +11,7 @@ Output:
 
 
 example input:
-   (gilad, teacher, happy, amazing, sooooo cool, bike = 2000, house = 1000, shoes = 20)
+   ('gilad', 'teacher', 'happy', 'amazing', 'sooooo cool', bike = 2000, house = 1000, shoes = 20)
 output:
    "Gilad is a teacher who is happy, amazing, and soooooo cool. Gilad has a bike worth 2000, a house worth 1000, and shoes with 20"
 
