@@ -3,7 +3,7 @@
 ## it must use a default value for the keyword argument.
 
 
-def square():
+def rectangle():
     """
     Input:
         length: int
@@ -11,6 +11,6 @@ def square():
 
     
     Returns:
-        the area of the square
+        the area of the rectangle
     """
 
