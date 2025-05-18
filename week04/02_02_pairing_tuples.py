@@ -1,11 +1,21 @@
 ### This code creates a random list for you to use
 import random
 
-list_length = random.randint(1, 20)
+list_length = random.randint(5, 20)
 randlist = list()
 for i in range(list_length):
     randlist.append(random.randint(1, 100))
-
+    
+print(randlist)
+randlist.sort()
+print(randlist)
+final=[]
+for i in range(len(randlist)):
+    temp_tuple=(randlist[i],randlist[i+1])
+   
+    
+    
+    
 
 # Write a script that takes randlist (a list of numbers) and:
 #     - sorts the numbers
@@ -20,3 +30,9 @@ for i in range(list_length):
 
 # example input :[1,2,5,1,2]
 # example output :[(1,1), (2,2), (5,0)]
+
+
+
+
+
+

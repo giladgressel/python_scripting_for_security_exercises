@@ -3,3 +3,15 @@
 
 # example input: (1,2), (2,2), (3,2), (4,5)
 # output: [2,4,6,20]
+
+def inner_multiplication(*inputs):
+    result=[]
+    for i,j in inputs:
+        result.append(i*j)
+    return(result)
+    
+a=inner_multiplication((1,2), (2,2), (3,2), (4,5))
+print(a)
+
+b=inner_multiplication((1,2), (2,2), (3,2), (4,5),[5,3.0],{4,2})
+print(b)

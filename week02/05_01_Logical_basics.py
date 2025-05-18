@@ -4,7 +4,7 @@
 a = True
 b = False
 
-# print the value of not of a and not of b
+# print the value of not a and not of b
 
 
 # Logical Operation_2

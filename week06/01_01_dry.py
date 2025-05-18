@@ -17,3 +17,5 @@ for i in numbers:
         new_div_2.append(i)
 
 print(new_div_2)
+
+

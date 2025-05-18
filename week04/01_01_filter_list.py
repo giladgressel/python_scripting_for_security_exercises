@@ -5,6 +5,18 @@
 # sample list: ['aaaa', 'a', 'ab', 'abc', ]
 # result : 3
 
+target=['aaaa', 'a', 'ab', 'abc','India']
+result=0
+
+for x in target:
+    
+    len_x=len(x)
+    if len_x>1:
+        result+=1
+        
+print(result)
+
+
 
 ## Stage 2
 # Now count the number of strings that have length 2 or more

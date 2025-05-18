@@ -4,6 +4,9 @@ Pickle the following class
 
 """
 
+import pickle
+
+
 class Car:
     cars_created = 0
     def __init__(self, num_tires = 2, color = "red", gas=True):
@@ -30,3 +33,8 @@ my_car = Car(4, 'blue', True)
 # pickle your instance of the car
 
 
+with open('car.pkl', 'wb') as file:
+    pickle.dump(my_car, file)
+    
+with open('car.pkl', 'rb') as file:
+    car = pickle.load(file)
