@@ -1,5 +1,5 @@
 """
-Write a function that accepps the following arguments
+Write a function that accepts the following arguments
 INPUT:
     name: str
     job : str
